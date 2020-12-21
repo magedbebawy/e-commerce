@@ -10,9 +10,9 @@ const MenuItem = (props) => (
             }>
         </div>
         <div className='content'>
-           <div className='title'>{props.title.toUpperCase()}</div>
-           <span className='subtitle'>SHOP NOW</span>
-         </div>
+            <div className='title'>{props.title.toUpperCase()}</div>
+                <span className='subtitle'>SHOP NOW</span>
+            </div>
         </div>
             
 )
