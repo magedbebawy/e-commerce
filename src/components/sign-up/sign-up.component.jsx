@@ -35,7 +35,8 @@ class SignUp extends React.Component{
                 password
             )
             console.log(user)
-            await createUserProfileDocument(user, displayName)
+            await createUserProfileDocument(user, {displayName})
+           
 
         }catch(error){
             console.log(error)
